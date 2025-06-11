@@ -1,3 +1,6 @@
-[pytest]
-bdd_features_base_dir = features
-testpaths = features/steps
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
